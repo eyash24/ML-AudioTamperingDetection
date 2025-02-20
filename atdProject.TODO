@@ -1,0 +1,35 @@
+ATD project:
+  Study:
+    ✔ Audio preprocessing for ML @website:https://youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0&si=hdHayAEgGhCY9eU2 @done(25-02-09 19:42)
+    ☐ Pytorch for audio @website:https://youtube.com/playlist?list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&si=apZv0WMzwg7a6taV
+    ☐ Generating Sounds using NN @website:https://youtube.com/playlist?list=PL-wATfeyAMNpEyENTc-tVH5tfLGKtSWPp&si=pESwHirufCNxusV9
+
+  Dataset preparation:
+    ✔ Playlist creation @done(25-02-09 19:29)
+    ✔ playlist downloadation @done(25-02-10 01:16)
+    ✔ Audio file convertion to MP3 @done(25-02-10 01:16)
+    ✔ Audio file renaming and mapping @done(25-02-10 12:29)
+    ✔ Audio file CSV @done(25-02-10 12:29)
+    ☐ Audio slicing into 30 seconds slips {doing}
+    ☐ Move all the CSV files to another folder
+    ☐ Audio Augmentation:
+      ☐ insertion (testing of the module is remainging, CSV remains)
+      ☐ deletion (code is ready, csv implementation remains)
+      ☐ replacement {code is ready, testing and csv implementation remains}
+    
+  Audio preprocessing:
+    ☐ audio slicing into 10 seconds clips
+    ☐ enf frequency extraction
+    ☐ Variational mode decomposition (VMD)
+    ☐ Robust filtering algorithm (RFA)
+  
+  Model:
+    ☐ 1D CNN architecture
+  
+  Metrics:
+    ☐ Accuracy
+    ☐ Precision
+    ☐ Recall
+    ☐ F-score
+    ☐ Normalize Misalignment(NM)
+    ☐ Correlation Coefficient(CC)

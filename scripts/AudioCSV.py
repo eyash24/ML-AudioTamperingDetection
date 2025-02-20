@@ -1,5 +1,7 @@
 import os
 import csv
+import librosa
+import pandas as pd
 
 def save_csv(data, csv_file):
     with open(csv_file,"w") as csvfile:
@@ -14,6 +16,10 @@ def retrieve_audioId(prefix, count, max_len=5):
     str_count = str(count)
     prefix_zero = max_len - len(str_count)
     return prefix + "0"*prefix_zero + str_count
+
+def add_durr(csvfile):
+    df = pd.read_csv(csvfile)
+
 
 
 if __name__ == "__main__":

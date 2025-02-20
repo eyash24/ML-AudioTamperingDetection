@@ -172,10 +172,9 @@ cython_debug/
 
 
 
-dataset/Audio1/
-dataset/Audio1-org/
-dataset/Zips/
+dataset/
 pdfs/
 logs/
-TODO
-
+Tampered/
+csv-files/IncompleteGender.numbers
+API/
